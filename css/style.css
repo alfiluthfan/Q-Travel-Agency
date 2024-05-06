@@ -9,6 +9,9 @@
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-proceed:hover{
+    background-color: #ffa443be !important;
+}
 :root{
     --text-color: #fff;
     --bg-color: #000;
