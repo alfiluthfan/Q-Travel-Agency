@@ -1518,14 +1518,14 @@ input:checked + .toggle-bg {
   border-color: transparent;
 }
 
+.\!bg-\[\#ffa343\] {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 163 67 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 131 248 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700 {
@@ -1562,11 +1562,6 @@ input:checked + .toggle-bg {
   background-color: rgb(17 24 39 / 0.5);
 }
 
-.bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 122 85 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1574,37 +1569,6 @@ input:checked + .toggle-bg {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[ffa343\] {
-  background-color: ffa343;
-}
-
-.bg-\[\#ffa343\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 163 67 / var(--tw-bg-opacity));
-}
-
-.\!bg-\[\#ffa343\] {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 163 67 / var(--tw-bg-opacity)) !important;
-}
-
-.\!bg-\[\] {
-  background-color:  !important;
-}
-
-.\!bg-\[ffa343\] {
-  background-color: ffa343 !important;
 }
 
 .p-1 {
@@ -1798,19 +1762,6 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.\!text-\[\] {
-  color:  !important;
-}
-
-.\!text-\[ffa343\] {
-  color: ffa343 !important;
-}
-
-.\!text-\[\#ffa343\] {
-  --tw-text-opacity: 1 !important;
-  color: rgb(255 163 67 / var(--tw-text-opacity)) !important;
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1927,33 +1878,6 @@ input:checked + .toggle-bg {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\]:hover {
-  background-color: ;
-}
-
-.hover\:bg-\[\#\]:hover {
-  background-color: #;
-}
-
-.hover\:bg-\[ffa343\]:hover {
-  background-color: ffa343;
-}
-
-.hover\:bg-\[\#ffa343\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 163 67 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-orange-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(180 52 3 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-black:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .hover\:text-\[\#ffa343\]:hover {
