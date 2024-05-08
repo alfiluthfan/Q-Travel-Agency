@@ -476,3 +476,20 @@ header.sticky{
         padding: 60px 3% 50px;
     }
 }
+
+
+
+
+/* Style untuk pesan kesalahan */
+#errorText {
+    color: red;
+    display: none; /* Pesan kesalahan disembunyikan secara default */
+    margin-top: 5px; /* Jarak antara input dan pesan kesalahan */
+}
+
+#successPopup {
+    display: none;
+    background-color: lightgreen;
+    padding: 10px;
+    border: 1px solid green;
+}

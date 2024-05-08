@@ -29,7 +29,7 @@
         <a href="#" class="logo">Q<span>Travel</span></a>
 
         <ul class="navbar">
-            <li><a href="#">Home</a></li>
+            <li><a href="#homepage">Home</a></li>
             <li><a href="#information">Information</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#culture">Culture</a></li>
@@ -51,7 +51,7 @@
             <h5>Let's</h5>
             <h1>Plan your <br> own travel</h1>
             <p>Indonesia, a Southeast Asian Nation made up of thousands of volcanic <br> islands, is home to hundreds of ethnic groups speaking</p>
-            <a href="dist/book.html" class="btn">Book a trip</a>
+            <a href="#contact" class="btn">Book a trip</a>
         </div>
     </section>
 
@@ -105,7 +105,7 @@
             <h5>east nusa tenggara</h5>
             <h2>Have you enjoyed your holiday</h2>
             <p>You will be amazed if you take part in this sailling Komodo island tour pakcage. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism. The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
-            <a href="#" class="btn">Read more</a>
+            <a href="/about.html" class="btn">Read more</a>
         </div>
     </section>
 
@@ -163,11 +163,18 @@
                     <h2>Ready to go?</h2>
                     <p>Let's go on vacation, make your day</p>
                 </div>
+                <form id="myForm" action="">
+                    <div style="display: flex; flex-direction: column;">
+                        <input id="emailInput" type="email" placeholder="example@gmail.com" required>
+                        <div id="errorText" style="color: red; display: none;">Please enter a valid email address. <br>(example@gmail.com)</div>
+                    </div>
+                    <input type="submit" value="Get started" class="btn">
 
-                
-                    <a href="#homepage" class="btn">Book a trip</a>
-                
+                    <div id="successPopup" style="display: none; background-color: lightgreen; padding: 10px; border: 1px solid green;">
+                        Gmail submitted successfully!
+                    </div>
 
+                </form>
             </div>
         </div>
     </section>
